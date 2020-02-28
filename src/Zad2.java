@@ -12,8 +12,8 @@ public class Zad2 {
         Scanner scanner = new Scanner(System.in);
         double mass = scanner.nextDouble();
         System.out.println("Podaj swój wzrost w metrach:");
-        double heigth = scanner.nextDouble();
-        double BMI = mass/(heigth*heigth);
+        double height = scanner.nextDouble();
+        double BMI = mass/(height*height);
         System.out.println("Twoje BMI wynosi " + BMI);
         if (BMI<18.5){
             System.out.println("Masz niedowagę.");
