@@ -2,6 +2,7 @@
 Piramid from letters
 Patryk Klimek
  */
+package Zjazd1;
 import java.util.Scanner;
 
 public class Zad4 {

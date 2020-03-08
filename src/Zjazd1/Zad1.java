@@ -2,6 +2,7 @@
 Draw Polish and Japanese flag with ASCII symbols
 Patryk Klimek
  */
+package Zjazd1;
 import java.util.Scanner;
 
 public class Zad1 {

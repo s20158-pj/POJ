@@ -2,7 +2,7 @@
 Daily needs of calories on a base of Harris-Benedict equation
 Patryk Klimek
  */
-
+package Zjazd1;
 import java.util.Scanner;
 
 public class Zad3 {

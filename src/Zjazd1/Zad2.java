@@ -2,6 +2,7 @@
 BMI Calculator
 Patryk Klimek
  */
+package Zjazd1;
 import java.util.Scanner;
 
 public class Zad2 {
