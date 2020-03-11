@@ -18,7 +18,7 @@ public class Triangle {
         this.siteB = siteB;
         this.siteC = siteC;
     }
-    public double rectangleArea () {
+    public double triangleArea() {
         double halfOfBase = siteC / 2;
         double heightOfTriangle = sqrt((siteB * siteB) - (halfOfBase * halfOfBase));
         return (siteC * heightOfTriangle) / 2;

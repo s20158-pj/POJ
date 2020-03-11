@@ -16,9 +16,9 @@ public class Main {
         System.out.println(rectangle.circumferenceOfRectangle());
         System.out.println(rectangle.diagonalOfRectangle());
 
-        Triangle triangle = new Triangle(2, 6, 4);
+        Triangle triangle = new Triangle(3, 3, 5);
 
-        System.out.println(triangle.rectangleArea());
+        System.out.println(triangle.triangleArea());
         System.out.println(triangle.sideOfTriangle());
         System.out.println(triangle.isEquilateral());
         System.out.println(triangle.isIsosceles());
