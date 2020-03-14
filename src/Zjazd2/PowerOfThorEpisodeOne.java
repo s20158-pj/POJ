@@ -29,9 +29,6 @@ Patryk Klimek
 package Zjazd2;
 
 import java.util.*;
-import java.io.*;
-import java.math.*;
-
 /**
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
@@ -64,7 +61,7 @@ class Player {
                 initialTy++;
             }
 
-            if ((lightX - initialTx) ==0){
+            if ((lightX - initialTx) == 0){
                 System.out.print("");
             } else if (lightX < initialTx){
                 System.out.print("W");

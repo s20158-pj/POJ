@@ -24,7 +24,8 @@ public class Main {
         System.out.println(triangle.isIsosceles());
         System.out.println(triangle.isScalene());
 
-        Caesar caesar = new Caesar("Patryk Klimek");
+        Caesar caesar = new Caesar("Patryk Klimek", 4);
+        System.out.println(caesar.cipher());
 
     }
 

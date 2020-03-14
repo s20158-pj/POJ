@@ -4,8 +4,6 @@ Patryk Klimek
  */
 package Zjazd2;
 
-import java.lang.Math;
-
 import static java.lang.Math.sqrt;
 
 public class Rectangle {
