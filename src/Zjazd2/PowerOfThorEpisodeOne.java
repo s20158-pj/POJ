@@ -21,7 +21,14 @@ S (South)
 SW (South-West)
 W (West)
 NW (North-West)
+
 Each movement makes Thor move by 1 cell in the chosen direction.
+
+Victory Conditions:
+You win when Thor reaches the light of power
+
+Lose Conditions:
+Thor moves outside the map
 
 URL to exercise: https://www.codingame.com/training/easy/power-of-thor-episode-1
 Patryk Klimek
