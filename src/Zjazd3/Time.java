@@ -45,17 +45,39 @@ public class Time {
 
     @Override
     public String toString() {
-        return hour +
-                ":" + minute +
-                ":" + second;
+        return String.format("%02d", hour) + "/" + String.format("%02d", minute) + "/" + String.format("%02d", second);
     }
 
-//    public Time nextSecond() {
-//        if (second <= 58) {
-//            this.second = second + 1;
-//        } else {
-//            this.second = 0;
-//        }
-//        return Time;
-//    }
+    public Time nextSecond() {
+        this.second += 1;
+        if (this.second > 59) {
+            this.second = 0;
+            this.minute += 1;
+            if (this.minute > 59) {
+                this.minute = 0;
+                this.hour += 1;
+                if (this.hour > 23) {
+                    this.hour = 0;
+                }
+            }
+        }
+        return this;
+    }
+
+    public Time previousSecond() {
+        this.second -= 1;
+        if (this.second < 0) {
+            this.second = 59;
+            this.minute -= 1;
+            if (this.minute < 0) {
+                this.minute = 59;
+                this.hour -= 1;
+                if (this.hour < 0) {
+                    this.hour = 23;
+                }
+            }
+        }
+        return this;
+    }
+
 }
