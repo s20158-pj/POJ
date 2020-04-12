@@ -70,18 +70,18 @@ public class Main {
         square.setLength(2.0);
         System.out.println(square.toString());
 
-//        ArmstrongNumbers armstrongNumbers = new ArmstrongNumbers();
-//        System.out.println(armstrongNumbers.Armstrong(153));
-//        System.out.println(armstrongNumbers.Armstrong(123));
-//
-//        DifferentWords differentWords = new DifferentWords();
-//        differentWords.DifWords("example");
-//        differentWords.DifWords("example2");
-//
-//        WordCounter wordCounter = new WordCounter();
-//        wordCounter.CountWords("example");
-//        wordCounter.CountWords("example2");
-//        wordCounter.CountWords("hamlet");
+        ArmstrongNumbers armstrongNumbers = new ArmstrongNumbers();
+        System.out.println(armstrongNumbers.Armstrong(153));
+        System.out.println(armstrongNumbers.Armstrong(123));
+
+        DifferentWords differentWords = new DifferentWords();
+        differentWords.DifWords("example");
+        differentWords.DifWords("example2");
+
+        WordCounter wordCounter = new WordCounter();
+        wordCounter.CountWords("example");
+        wordCounter.CountWords("example2");
+        wordCounter.CountWords("hamlet");
 
     }
 }
