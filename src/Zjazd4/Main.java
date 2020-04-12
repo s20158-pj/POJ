@@ -4,9 +4,11 @@ Summary: Main class for testing other classes.
  */
 package Zjazd4;
 
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Person person = new Person("Ździchu", "Żanowo");
         System.out.println(person.toString());
@@ -49,6 +51,37 @@ public class Main {
         System.out.println(movablePoint2.toString());
         System.out.println(movablePoint2.move());
 
+        Shape shape = new Shape();
+        System.out.println(shape.toString());
+
+        Circle circle = new Circle();
+        System.out.println(circle.getArea());
+        System.out.println(circle.getPerimeter());
+        System.out.println(circle.toString());
+
+        Rectangle rectangle = new Rectangle();
+        System.out.println(rectangle.getArea());
+        System.out.println(rectangle.getPerimeter());
+        System.out.println(rectangle.toString());
+
+        Square square = new Square();
+        System.out.println(square.toString());
+        square.setWidth(2.0);
+        square.setLength(2.0);
+        System.out.println(square.toString());
+
+//        ArmstrongNumbers armstrongNumbers = new ArmstrongNumbers();
+//        System.out.println(armstrongNumbers.Armstrong(153));
+//        System.out.println(armstrongNumbers.Armstrong(123));
+//
+//        DifferentWords differentWords = new DifferentWords();
+//        differentWords.DifWords("example");
+//        differentWords.DifWords("example2");
+//
+//        WordCounter wordCounter = new WordCounter();
+//        wordCounter.CountWords("example");
+//        wordCounter.CountWords("example2");
+//        wordCounter.CountWords("hamlet");
 
     }
 }

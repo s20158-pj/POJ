@@ -4,6 +4,7 @@ Summary: Creating class "Shape" from UML chart in exercise 23
  */
 package Zjazd4;
 
+
 public class Shape {
     private String color = "red";
     private boolean filled = true;
